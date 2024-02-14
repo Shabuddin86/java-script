@@ -14,7 +14,7 @@ const id = Symbol('123')
 
 const anotherid = Symbol('123')
 
-console.log(id === anotherid);
+// console.log(id === anotherid);
 
 // const bignumber = 111111111111166666455678999999999999999n
 
@@ -32,8 +32,35 @@ age: 22
 const myfunction = function  ( ) {console.log( "hello wrold");}
     
 
-console.log( typeof score);
+// console.log( typeof score);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+// ************************************************###################################
+
+// stack(primitive),Heap ( non-primitive)
+
+let Myyoutubename = "shabuddinislam788@gamil.com"
+
+let anothername = Myyoutubename
+anothername = "islamsabuddin7882gmail.com"
+
+console.log( anothername);
+console.log( Myyoutubename);
+
+let userone = {
+
+    email: "user69@gmail.com",
+
+    bkash:"shabuddin69"
+
+}
+
+
+let usertwo = userone
+
+usertwo.email = "shabuddin@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
